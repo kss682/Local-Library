@@ -1,2 +1,3 @@
-# Django_intro
-## This repo contains django tutorial works.
+# Local Library
+## .Local library system implemented using Django.
+Tutorial Purpose
