@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Local Library</title>
-        <link rel="stylesheet" type = "text/css"href="{% static 'catalog/css/style.css' %}"> 
+        <link rel="stylesheet" type = "text/css" href="{% static 'catalog/css/style.css' %}"> 
         </title>
     </head>
     <body>
@@ -12,13 +12,13 @@
         <div class = 'body'>
             <div class = 'navbar'>
                 <h3>Contents</h3>
-                    <ul>
+                    <ul>    
+                        <li><a href="{% url 'index' %}">Home</a></li>
                         <li><a href="{% url 'books' %}">Books</a></li>
                         <li><a href="{% url 'authors' %}">Authors</a></li>
                     </ul>
             </div>
             <div class = 'content'>
-                    CONTENT
                 {% block content %}
 
                 {% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'index.html' %}
+{% block content%}
+ <div class = 'books'>
+     {% for book in object_list %}
+    <h5>{{book.title}} </h5> {{book.author}}
+     {% endfor %}
+ </div>
+ {% endblock %}

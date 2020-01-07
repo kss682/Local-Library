@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+{% block content%}
+ <div class = "authors">
+    {% for ath in object_list %}
+        <h5>{{ath.name}}</h5>
+        {{ath.country}}
+    {% endfor %}
+ </div>
+ {% endblock %}
