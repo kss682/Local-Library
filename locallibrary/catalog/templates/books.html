@@ -2,7 +2,8 @@
 {% block content%}
  <div class = 'books'>
      {% for book in object_list %}
-    <h5>{{book.title}} </h5> {{book.author}}
+    <a href="books/{{ book.id }}"><h5>{{book.title}} </h5></a>
+    {{book.author}}
      {% endfor %}
  </div>
  {% endblock %}

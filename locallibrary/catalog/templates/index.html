@@ -8,16 +8,17 @@
     <body>
         <div class = 'header'>
             <h1>Local Library</h1>
+            <div class = 'page'>
+                <a href="{% url 'index' %}">Home</a>
+            </div>
+            <div class = 'page'>
+                <a href="{% url 'books' %}">Books</a>
+            </div>
+            <div class = 'page'>
+                <a href="{% url 'authors' %}">Authors</a>
+            </div>
         </div>
         <div class = 'body'>
-            <div class = 'navbar'>
-                <h3>Contents</h3>
-                    <ul>    
-                        <li><a href="{% url 'index' %}">Home</a></li>
-                        <li><a href="{% url 'books' %}">Books</a></li>
-                        <li><a href="{% url 'authors' %}">Authors</a></li>
-                    </ul>
-            </div>
             <div class = 'content'>
                 {% block content %}
 

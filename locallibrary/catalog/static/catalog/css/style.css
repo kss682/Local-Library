@@ -2,28 +2,65 @@ body{
     margin: 0rem;
     padding: 0mm;
 }
-
+img{
+    width: 256px;
+    height: 256px;
+}
 
 .header{
     padding: 2em;
-    padding-left: 9em;
+    padding-left: 11.5em;
+    background-color:darkolivegreen;
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
-    color: cornflowerblue;
+    color: oldlace;
+    display: flex;
+    flex-direction: row;
     
 }
 .body{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: olive;
+}
+.page{
+
+    margin-left: 5rem;
+    padding-top: 2rem;
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+}
+.content{
+    margin-top: 2rem;
+    background-color: olivedrab;
+    height: 25rem;
+    width: 50rem;
+    color: crimson;
+    margin: auto;
+    padding: 5rem;
+    padding-top: 2rem;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sub-head{
+    font-weight: 300;
+    color: crimson;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.navbar{
-    margin-left: 9rem;
-    padding: 0mm;
-    color: cornflowerblue;
-}
-
-.content{
+.sub-body{
+    font-weight: 100;
     color: crimson;
-    margin: auto;
+}
+.image{
+    width: 256px;
+    height: 256px;
+    padding-left: 2rem;
 }
