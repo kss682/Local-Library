@@ -10,10 +10,8 @@ img{
 .header{
     padding: 2em;
     padding-left: 11.5em;
-    background-color:darkolivegreen;
     font-weight: 200;
-    font-family: Arial, Helvetica, sans-serif;
-    color: oldlace;
+    font-family: Arial, Helvetica, sans-serif;    
     display: flex;
     flex-direction: row;
     
@@ -22,21 +20,38 @@ img{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: olive;
 }
 .page{
-
     margin-left: 5rem;
     padding-top: 2rem;
     padding-left: 0rem;
     padding-bottom: 1rem;
 }
+
+.header
+.box{
+    border-radius: 100rem;
+    width: 10rem;
+    height: 9rem;
+}
+
+.page
+.box{
+    border-radius: 20rem;
+    width:7.5rem;
+    height: 3.4rem;
+}
+.box{
+    float: right;
+    text-align: center;
+    color: cornsilk;
+    background-color: blue;
+}
 .content{
     margin-top: 2rem;
-    background-color: olivedrab;
     height: 25rem;
     width: 50rem;
-    color: crimson;
+    color: rebeccapurple;
     margin: auto;
     padding: 5rem;
     padding-top: 2rem;
@@ -50,14 +65,14 @@ img{
 
 .sub-head{
     font-weight: 300;
-    color: crimson;
+    color: blue;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .sub-body{
     font-weight: 100;
-    color: crimson;
+    color: blue;
 }
 .image{
     width: 256px;

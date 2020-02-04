@@ -7,15 +7,20 @@
     </head>
     <body>
         <div class = 'header'>
-            <h1>Local Library</h1>
+                <figure class = 'box'>
+                    <h1>Local Library</h1>
+                </figure>
             <div class = 'page'>
-                <a href="{% url 'index' %}">Home</a>
+                    <a href="{% url 'index' %}">
+                        <figure class = 'box'>Home</figure></a>
             </div>
             <div class = 'page'>
-                <a href="{% url 'books' %}">Books</a>
+                    <a href="{% url 'books' %}">
+                        <figure class = 'box'>Books</figure>
+                   </a>
             </div>
             <div class = 'page'>
-                <a href="{% url 'authors' %}">Authors</a>
+                    <a href="{% url 'authors' %}"> <figure class = 'box'>Authors</figure></a>
             </div>
         </div>
         <div class = 'body'>
